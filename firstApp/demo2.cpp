@@ -59,7 +59,7 @@ void MyPerson::addResource()
 	pResource = std::make_shared<Resource>("Resource for " + this->getName());
 }
 
-int cap(MyPerson& k)
+int cap(MyPerson k)
 {
 	k.setFirstName("HUE");
 	return true;
