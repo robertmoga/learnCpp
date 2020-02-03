@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17">
+      <UniqueIdentifier>{0ecb50ce-1597-4047-8d7c-093090a1b046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\Mod5">
+      <UniqueIdentifier>{eb4fc89b-0126-4b1d-86f7-da01ca017b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\misc">
+      <UniqueIdentifier>{ba29b2bc-b79a-4a9b-a323-eaf44bbbd348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\pragma_exp">
+      <UniqueIdentifier>{e4a2bfda-8e64-4aa7-8c94-dc7de835ba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\Mod9">
+      <UniqueIdentifier>{f580062a-2019-488e-97b1-3f47f97ad4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\DP">
+      <UniqueIdentifier>{21832dd1-fd57-4aa6-abbc-745d594e7910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\templates">
+      <UniqueIdentifier>{2b5622e0-90b3-475d-b5b2-ae28339a6cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\course_cpp17\memory">
+      <UniqueIdentifier>{83c2e60a-a777-4990-82c5-3fe78197b755}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files\course_cpp17\Mod5</Filter>
+    </ClCompile>
+    <ClCompile Include="Tweeter.cpp">
+      <Filter>Source Files\course_cpp17\Mod5</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructors.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="firstApp.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="maps.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="oop1.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="oop2.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="template_main.cpp">
+      <Filter>Source Files\course_cpp17\Mod9</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod4.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Accum.hpp">
+      <Filter>Source Files\course_cpp17\Mod9</Filter>
+    </ClCompile>
+    <ClCompile Include="backtracking.cpp">
+      <Filter>Source Files\course_cpp17\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="auto.cpp">
+      <Filter>Source Files\course_cpp17\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="demo1.cpp">
+      <Filter>Source Files\course_cpp17\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="demo2.cpp">
+      <Filter>Source Files\course_cpp17\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Source Files\course_cpp17\Mod5</Filter>
+    </ClInclude>
+    <ClInclude Include="Tweeter.h">
+      <Filter>Source Files\course_cpp17\Mod5</Filter>
+    </ClInclude>
+    <ClInclude Include="gp.h">
+      <Filter>Source Files\course_cpp17\pragma_exp</Filter>
+    </ClInclude>
+    <ClInclude Include="p.h">
+      <Filter>Source Files\course_cpp17\pragma_exp</Filter>
+    </ClInclude>
+    <ClInclude Include="Child.h">
+      <Filter>Source Files\course_cpp17\pragma_exp</Filter>
+    </ClInclude>
+    <ClInclude Include="temp.hpp">
+      <Filter>Source Files\course_cpp17\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Person_for_template.hpp">
+      <Filter>Source Files\course_cpp17\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="demo1.hpp">
+      <Filter>Source Files\course_cpp17\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
