@@ -23,7 +23,8 @@ Person::Person()
 Person::~Person(){
   std::cout << "Deconstructing person : " << firstName + "  " + lastName << std::endl;
 }
-std::string Person::getName()
+
+std::string Person::getName() const
 {
   return firstName + " " + lastName;
 }

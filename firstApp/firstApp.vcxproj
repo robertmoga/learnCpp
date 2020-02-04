@@ -85,6 +85,7 @@
     <ClCompile Include="backtracking.cpp" />
     <ClCompile Include="Constructors.cpp" />
     <ClCompile Include="demo1.cpp" />
+    <ClCompile Include="demo1_mod12.cpp" />
     <ClCompile Include="demo2.cpp" />
     <ClCompile Include="Enums.h" />
     <ClCompile Include="firstApp.cpp" />
@@ -102,6 +103,7 @@
   <ItemGroup>
     <ClInclude Include="Child.h" />
     <ClInclude Include="demo1.hpp" />
+    <ClInclude Include="demo1_mod12.hpp" />
     <ClInclude Include="gp.h" />
     <ClInclude Include="Person_for_template.hpp" />
     <ClInclude Include="temp.hpp" />

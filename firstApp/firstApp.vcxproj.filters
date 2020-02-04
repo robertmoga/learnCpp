@@ -37,6 +37,9 @@
     <Filter Include="Source Files\course_cpp17\memory">
       <UniqueIdentifier>{83c2e60a-a777-4990-82c5-3fe78197b755}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\course_cpp17\inheritance">
+      <UniqueIdentifier>{eb018a0c-bfac-4fc1-b6ac-d575b5ccd466}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -96,6 +99,9 @@
     <ClCompile Include="demo2.cpp">
       <Filter>Source Files\course_cpp17\memory</Filter>
     </ClCompile>
+    <ClCompile Include="demo1_mod12.cpp">
+      <Filter>Source Files\course_cpp17\inheritance</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -121,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="demo1.hpp">
       <Filter>Source Files\course_cpp17\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="demo1_mod12.hpp">
+      <Filter>Source Files\course_cpp17\inheritance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

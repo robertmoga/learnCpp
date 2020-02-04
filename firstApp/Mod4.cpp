@@ -79,7 +79,7 @@ void testTweeter()
   //Tweeter t1("HUe", "Bahue", 10, 12);
   Person p1("HUe", "Bahue", 10);
   {
-    Tweeter t2("A", "aA", 12, 10);
+    Tweeter t2("A", "aA", 12, "@hue");
   }
   std::cout << "Finished ined block " << std::endl;
 }

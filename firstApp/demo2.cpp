@@ -61,20 +61,21 @@ void MyPerson::addResource()
 
 int cap(MyPerson k)
 {
+  //here K has 3 strong refs, considering the control flow from main() 
 	k.setFirstName("HUE");
 	return true;
 }
 
-int main()
-{
-	{
-		MyPerson p("Hue", "Bahue", 35);
-		p.addResource();
-		p.addResource();
-    //if I dont have a copy constructor nor shared pointer
-    //it will blow up because at th end of the scope it will try to delete twice the same obj
-		MyPerson p2 = p; 
-		cap(p2);
-	}
-	return 0;
-}
+//int main()
+//{
+//	{
+//		MyPerson p("Hue", "Bahue", 35);
+//		p.addResource();
+//		p.addResource();
+//    //if I dont have a copy constructor nor shared pointer
+//    //it will blow up because at th end of the scope it will try to delete twice the same obj
+//		MyPerson p2 = p; 
+//		cap(p2);
+//	}
+//	return 0;
+//}

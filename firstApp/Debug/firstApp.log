@@ -1,2 +1,7 @@
-﻿  demo2.cpp
+﻿  Mod4.cpp
+d:\cppworks\firstapp\firstapp\mod4.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Person.cpp
+  Tweeter.cpp
+  demo1_mod12.cpp
+  Generating Code...
   firstApp.vcxproj -> D:\CppWorks\firstApp\Debug\firstApp.exe
