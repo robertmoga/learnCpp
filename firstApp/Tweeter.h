@@ -13,4 +13,5 @@ public:
   Tweeter(std::string first, std::string second, int age, std::string hue);
   ~Tweeter();
   std::string getName() const { return Person::getName() + " " + tweeterHandle; }
+  int getAge() const { return 0; }
 };
